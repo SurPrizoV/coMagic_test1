@@ -14,7 +14,7 @@ export const LoginPage = ({ user, setUser }) => {
 
   const userLogin = (e) => {
     e.preventDefault();
-    if (!user.trim()) {
+    if (!user) {
       setError("Логин не может быть пустым");
       return;
     }
