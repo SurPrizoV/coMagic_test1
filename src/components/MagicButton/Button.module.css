@@ -1,0 +1,20 @@
+.button {
+    border: none;
+    border-radius: 5px;
+    padding: 24px 48px;
+    font-size: 54px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    transform: scale(1.1);
+}
+
+.grey {
+    background-color: #3a3e42;
+    color: #fff;
+}
+
+.light_grey {
+    background-color: #dbe0e5;
+}
